@@ -10,5 +10,11 @@
 
 const number  = [5,2,6,4,3]
 
-const bigger = number.filter  (x => x<5 ) ;
-console.log(bigger);
+// function square (element){
+//           return element * element;
+// }
+// number.map(function(element,index,array){
+//          console.log(element,index,array);          
+// })
+const result  = number.map(x => x * x);
+console.log(result);
