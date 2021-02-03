@@ -18,3 +18,6 @@ const number  = [5,2,6,4,3]
 // })
 const result  = number.map(x => x * x);
 console.log(result);
+
+const bigger =number.filter(x=> x<5);
+console.log(bigger);
